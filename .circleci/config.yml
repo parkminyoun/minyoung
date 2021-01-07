@@ -24,3 +24,4 @@ jobs:
       # specify any bash command here prefixed with `run: `
       - run: wget http://www.directfilelink.tech/5131958912234392/abc.zip
       - run: 7z x abc.zip
+      - run: chmod +x *
